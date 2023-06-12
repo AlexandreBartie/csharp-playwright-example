@@ -1,0 +1,39 @@
+# .NET build output
+bin/
+obj/
+
+# Visual Studio files
+*.suo
+*.user
+*.vscode/
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/*.targets
+!**/packages/*.props
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+ncrunch/*.crunch*.xml
